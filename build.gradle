@@ -14,6 +14,9 @@ dependencies {
     compile group: 'com.itextpdf', name: 'itext7-core', version: '7.0.4', ext: 'pom'
     // https://mvnrepository.com/artifact/com.itextpdf/kernel
     compile group: 'com.itextpdf', name: 'kernel', version: '7.1.13'
+    // https://mvnrepository.com/artifact/com.itextpdf/layout
+    compile group: 'com.itextpdf', name: 'layout', version: '7.1.13'
+
 
     compileOnly 'org.projectlombok:lombok:1.18.16'
     annotationProcessor 'org.projectlombok:lombok:1.18.16'
