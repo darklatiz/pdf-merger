@@ -37,6 +37,8 @@ public class PDFMergerBot {
     docs.forEach(pdfDocumentReader -> merger.merge(pdfDocumentReader, 1, pdfDocumentReader.getNumberOfPages()));
     docs.forEach(PdfDocument::close);
     targetDoc.close();
+
+
   }
 
   private static List<PdfDocument> loadFolderSource(String source) throws IOException {
